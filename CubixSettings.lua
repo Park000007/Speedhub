@@ -1,5 +1,5 @@
 local CubixST = {}
 
-CubixST.DiscordInvite = "https://discord.gg/jVUsFJNSmf"
+CubixST.DiscordInvite = "https://discord.gg/mMCseE7e3k"
 
 return CubixST
