@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Main/main/Library/V3.5"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Park000007/Speedhub/refs/heads/main/V3.5"))()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Settings.lua"))()
 
 local Window = Library:Start({
