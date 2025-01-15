@@ -8,7 +8,7 @@ local Window = Library:Start({
 
 game.StarterGui:SetCore("SendNotification", {Title = "Script Status", Text = "Loading...", Icon = "rbxassetid://0", Duration = 10})
 
-local SpeedHubX = {}
+local ParkHubX = {}
 
 local Funcs = {} do
   function Funcs:AddToggle(Section, Name, Content, Default)
