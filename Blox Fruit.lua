@@ -2,8 +2,8 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Park0
 loadstring(game:HttpGet("https://raw.githubusercontent.com/AhmadV99/Speed-Hub-X/main/Settings.lua"))()
 
 local Window = Library:Start({
-  ["Name"] = "Speed Hub X | " .. Version,
-  ["SaveFolder"] = "Speed Hub X"
+  ["Name"] = "Park Hub X | " .. Version,
+  ["SaveFolder"] = "Park Hub X"
 })
 
 game.StarterGui:SetCore("SendNotification", {Title = "Script Status", Text = "Loading...", Icon = "rbxassetid://0", Duration = 10})
@@ -17,7 +17,7 @@ local Funcs = {} do
       ["Content"] = Content,
       ["Default"] = Default,
       ["Callback"] = function(Value)
-        SpeedHubX[Name] = Value
+        ParkHubX[Name] = Value
       end,
       ["Flag"] = "SPD/Toggle/" .. tostring(Name)
     })
@@ -33,10 +33,10 @@ local Funcs = {} do
       ["Callback"] = function(Value)
         if not Multi and type(Value) == "table" then
           for _, v in next, Value do
-            SpeedHubX[Name] = v
+            ParkHubX[Name] = v
           end
         else
-          SpeedHubX[Name] = Value
+          ParkHubX[Name] = Value
         end
       end
     })
@@ -51,7 +51,7 @@ local Funcs = {} do
       ["Increment"] = Increment,
       ["Default"] = Default,
       ["Callback"] = function(Value)
-        SpeedHubX[Name] = Value
+        ParkHubX[Name] = Value
       end
     })
   end
@@ -64,7 +64,7 @@ local Funcs = {} do
       ["ClearTextOnFocus"] = ClearText,
       ["Default"] = Default,
       ["Callback"] = function(Value)
-        SpeedHubX[Name] = Value
+        ParkHubX[Name] = Value
       end
     })
   end
@@ -968,4 +968,4 @@ local _raidesp = Window:MakeTab("Raid / ESP") do
   end
 end
 
-return SpeedHubX
+return ParkHubX
